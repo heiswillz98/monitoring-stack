@@ -13,7 +13,7 @@ This repository provides a Dockerized monitoring and alerting system using **Pro
 - **Security**: Grafana is secured with credentials; Prometheus is unsecured for local testing but isolated via Docker network.
 
 ## Repository Structure
-
+``` text
 monitoring-stack/
 ├── docker-compose.yml # Orchestrates Prometheus, Grafana, Node Exporter, Alertmanager
 ├── prometheus/
@@ -29,7 +29,7 @@ monitoring-stack/
 ├── setup.sh # Script to automate setup and testing
 ├── README.md # This file
 └── .gitignore # Ignores logs and temporary files
-
+```
 ## Prerequisites
 
 - **Docker** and **Docker Compose**.
